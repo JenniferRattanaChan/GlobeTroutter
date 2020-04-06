@@ -1,0 +1,294 @@
+.list-group-item {
+  line-height: 2.5;
+  margin-bottom: 16px;
+}
+
+.list-group-item > button.delete, .list-group-item > button.complete {
+  float: right;
+  height: 25px;
+  margin-left: 5px;
+  line-height: 10px;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.homeWrapper{
+  background: url("../Images/img2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100hh;
+  overflow: hidden;
+}
+
+.resultWrapper{
+  background: url("../Images/img4.jpg");
+  font-family: Optima, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.tableWrapper{
+font-weight: bold;
+}
+ 
+/* nav bar */
+
+#welcomeNavbar{
+  height: 70px;
+  background-color: transparent;
+}
+
+.navbar-brand{
+  color: green;
+  font-family: Optima, sans-serif;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+#newTrip{
+ color: white;
+ background-color: green;
+ font-family: Optima, sans-serif;
+ font-size: 20px;
+ margin-top: 11px;
+ float: right;
+ margin-right: 20px;
+}
+
+/* jumbotron */
+
+#welcome{
+  font-family: Optima, sans-serif;
+  background-color: transparent;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.formContainer{
+  font-family: Optima, sans-serif;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+.resultContainer{
+  padding-left: 0;
+  background-size: cover;
+  background-size: contain;
+}
+
+.tabContainer{
+  margin-top: 20px;
+  background-color: white;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#submit, #loginBtn, #logout, #start-over{
+  color: white;
+  background-color: green;
+  font-family: Optima, sans-serif;
+  float: right;
+}
+
+#submit, #logout{
+  margin-left: 10px;
+}
+  
+#delete{
+  margin-right: 5px;
+}
+  
+#save, #dropdownMenuButton, #delete{
+  color: white;
+  background-color: green;
+  font-family: Optima, sans-serif;
+}
+
+#loginBtn{
+  margin-right: 20px;
+}
+  
+#start-over{
+  margin-right: 20px;
+}
+  
+  
+  /* Weather CSS */
+  
+.weather{
+  text-align: center;
+  color: white;
+  font-family: Optima, sans-serif;
+}
+
+/* IAN CODE UPDATE BEGINNING */
+
+/* Styling for google maps */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0 !important;
+}
+
+table {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.hotel-search {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+ /* position: absolute; */
+  top: 0;
+  width: 700px;
+  z-index: 1;
+}
+
+#listing {
+  width: 200px;
+  height: 500px;
+  overflow: auto;
+  left: 442px;
+  top: 0px;
+  cursor: pointer;
+  overflow-x: hidden;
+  float: left;
+}
+
+#findhotels {
+  font-size: 14px;
+}
+
+#locationField {
+  -webkit-box-flex: 1 1 190px;
+  -ms-flex: 1 1 190px;
+  flex: 1 1 190px;
+  margin: 0 8px;
+}
+
+#controls {
+  -webkit-box-flex: 1 1 140px;
+  -ms-flex: 1 1 140px;
+  flex: 1 1 140px;
+}
+
+#autocomplete {
+  width: 100%;
+}
+
+#country {
+  float: left;
+  width: 100%;
+}
+
+.placeIcon {
+  width: 20px;
+  height: 34px;
+  margin: 4px;
+}
+
+.hotelIcon {
+  width: 24px;
+  height: 24px;
+}
+
+#map {
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+#resultsTable {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+#rating {
+  font-size: 13px;
+  font-family: Arial Unicode MS;
+}
+
+.iw_table_row {
+  height: 18px;
+}
+
+.iw_attribute_name {
+  font-weight: bold;
+  text-align: right;
+}
+
+.iw_table_icon {
+  text-align: right;
+}
+
+.quantity-text {
+  font-size: .8em;
+  color: #888;
+  margin-left: 8px;
+  margin-right: 16px
+}
+
+.season-text {
+  font-size: .8em;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: #878E88;
+  border-radius: 4px;
+  padding: 3px 7px;
+  margin: 0 16px 0 8px;
+}
+
+.season-text.season-color-Winter {
+  color: #1f2d3d6c;
+  background-color: #76BED0;
+}
+
+.season-text.season-color-Summer {
+  color: #1f2d3d6c;
+  background-color: #F7CB15;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-tabs{
+  padding-top:8px;
+}
+
+.dropdown-menu{
+  width: 100%;
+  min-height: 100%;
+  overflow: auto;
+}
+
+.dropdown-item:hover{
+  cursor: pointer;
+}
+
+#flightinfolabel{
+  padding-left: 30px;
+}
+
+/* Non-Google Places Code */
+#search {
+  margin: 500PX;
+}
+
